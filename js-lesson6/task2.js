@@ -1,4 +1,4 @@
-function isAge(age) {
+function isAdult(age) {
   if (age >= 18) {
     return true;
   } else {
@@ -6,4 +6,4 @@ function isAge(age) {
   }
 }
 
-console.log(isAge(25, 15));
+console.log(isAdult(25, 15));
